@@ -1,0 +1,28 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilkulik/Puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilkulik/Puppeteer/issues"
+  },
+  "homepage": "https://github.com/kamilkulik/Puppeteer#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "puppeteer": "^1.20.0"
+  }
+}
